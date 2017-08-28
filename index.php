@@ -41,7 +41,7 @@
 		<div class="row">
 			<div class="col">
 				<?php
-					echo "Prekes Kaina yra " . getPrice(50) . " Eur";
+					echo  getPrice(50);
 				?><br/>
 				<?php
 					echo "Baseino turis " . getVolume(7, 8 , 4.1561) ;
